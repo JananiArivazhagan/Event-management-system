@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="icon" href="photos/college_logo.jpg" type="image/x-icon">
+    <style>
+        body{
+            
+            color:rebeccapurple;
+            font-size: larger;
+            font-weight: bold;
+        }
+        input[type="submit"]{
+            background-color: red;
+            color: white;
+        }
+        input[type="submit"]:hover{
+            border-radius: 5px;
+        }
+        header{
+            background-color: blue;
+            color:white;
+        }
+        form{
+            background-image: url("form_bg.webp");
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <center>
+        <h2>Event Registration</h2>
+    </center>
+</header>
+    
+    <center>
+    <form method="post" action="f:\xampp\htdocs\php\student.php">
+        <label for="rno">Register No:</label>
+        <input type="number" name="no" size="30"/><br><br>
+        <label for="name">Name:</label>
+        <input type="text" name="name" size="20"/><br><br>
+        <label for="dept">Department:</label>
+        <select name="dept">
+            <option value="IT">IT</option>
+            <option value="CSE">CSE</option>
+            <option value="ECE">ECE</option>
+            <option value="EEE">EEE</option>
+            <option value="Mech">Mech</option>
+            <option value="Civil">Civil</option>
+        </select>
+        <br><br>
+        <label for="year">Year:</label>
+        <select name="year">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <br><br><br>
+        <input type="submit" value="SUBMIT">
+    </form>
+</center>
+</body>
+</html>

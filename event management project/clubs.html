@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clubs</title>
+    <link rel="icon" href="photos/college_logo.jpg" type="image/x-icon">
+    <style>
+        .items{
+            display: grid;
+            padding: 10px;
+            grid-template-columns: repeat(3, 1fr);
+            grid-column-gap: 30px;
+            grid-row-gap: 30px;
+        }
+        img{
+            width: 200 px;
+            height: 200px;
+            cursor: pointer;
+            align-self: center;
+        }
+        nav ul a{
+        display: inline-block;
+        padding: 10px 0 10px 0;
+        text-decoration: none;
+        color: #000;
+        transition: 0.3s ease-in ;
+        
+    }
+    nav ul a:hover{
+        background-color: #fccae9d7 ;
+        color: rgb(236, 48, 142);
+        
+    }
+    nav li{
+        display: inline-block;
+        margin-right: 1rem;
+    }
+        img:hover{
+            transition: scale(0.4);
+        }
+        button{
+            width: 200px;
+            height:30px;
+            background-color: deeppink;
+            cursor:pointer;
+        }
+        button:hover{
+            transition: scale(0.4);
+            background-color: aliceblue;
+
+        }
+        header{
+            background-image: url("photos/club_header.jpg");
+            color: whitesmoke;
+            text-align: center;
+            height: 50px;
+            font-size: 25px;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <header>
+        <h2>College Clubs</h2>
+        <nav>
+            <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="clubs.html">Clubs</a></li>
+            <li><a href="dept.html">Departments</a></li>
+            <li><a href="events.html">Upcoming Events</a></li>
+            <li><a href="photos.html">Photos Gallary</a></li>
+        </ul>
+        </nav>
+    </header>
+    <br><br><br><br><br>
+    <section class="items">
+        <div>
+            <a href="nss.html">
+            <img src="photos/nss2.png"/>
+            <br>
+            <button>View Details</button>
+            </a>
+        </div>
+        <div>
+            <a href="yrc.html">
+            <img src="photos/YRC_logo.jpg"/>
+            <br>
+            <button>View Details</button>
+        </a>
+        </div>
+        <div>
+            <a href="iic.html">
+            <img src="photos/IIC_logo.webp"/>
+            <br>
+            <button>View Details</button>
+        </a>
+        </div>
+        <div>
+            <a href="english.html">
+            <img src="photos/English_club_logo.png"/>
+            <br>
+            <button>View Details</button>
+        </a>
+        </div>
+        <div>
+            <a href="maths.html">
+            <img src="photos/math_club_logo.jpg"/>
+            <br>
+            <button>View Details</button>
+        </a>
+        </div>
+        <div>
+            <a href="science.html">
+            <img src="photos/Science_club_logo.jpg"/>
+            <br>
+            <button>View Details</button>
+        </a>
+        </div>
+        <div>
+            <a href="igen.html">
+            <img src="photos/IGEN_logo.png"/>
+            <br>
+            <button>View Details</button>
+            </a>
+        </div>
+    </section>
+</body>
+</html>
